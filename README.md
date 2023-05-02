@@ -1,6 +1,7 @@
 This is the core code for `Parameter-Efficient Korean Character-Level Language Modeling`.
 
 - Paper: https://aclanthology.org/2023.eacl-main.172/
+- Poster: See repo.
 
 # Overview
 Here, we provide an embedding and decoding layer for Korean character (syllable) language models. We also provide a number of loss functions that we tried throughout the paper, an implementation of a prior three-hot model (`ThreeHotIndependentDecoder`), and some glue code to help ease the use of this with real life datasets.
